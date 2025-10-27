@@ -1,39 +1,102 @@
-# Retail-and-Customer-Sales-Analysis
-The aim of this project was to generate data-driven insights for Wander wave Travels, a travel and tour company using Excel to boost underperforming tour packages, bookings and improve customer retention. 
 
-1.OVERVIEW
-This is an exploratory data analysis of Wander wave Travels, a travel and tour company using excel.  The aim of this project was to generate data-driven insights to boost underperforming tour packages, bookings and improve customer retention. 
+Retail-Sales-Customer-Analysis
+This is a project to analyse the relationship between customer demographics and the items they purchase at a retail store. KPI's were achieved through data cleaning, feature engineering and visualization
 
-2.EXECUTIVE SUMMARY
-This project focused on transforming raw dataset of 1,000 transactions into actionable insights that can help improve performance and help make informed strategic decisions Top revenue categories include Electronics, Clothing and Beauty. Monthly sales trends highlight variability across months; demographic analysis shows concentration of orders in specific age groups. The dataset records only unique customers per transaction which indicates no repeat buyers. Recommendations include: expand electronics to sustain revenue growth.
-Target female dominated demographics with tailored marketing campaigns to increase sales.
+1. Project Overview
+Retail Dataset (Transaction ID, Customer ID, Item Quantity, Age, Unit, Total Amount) The objective is to create an interactive Dashboard in Excel that answers;
+i. Which product Category generate the most revenue?
+ii. What age group gives the most revenue
+iii. Which month did sales peak
+iv. The average age of a customer
 
-3.PROBLEM STATEMENT 
-The aim of the project is to analyze sales data to understand customer behavior and product performance. To generate actionable insights, the analysis seeks to answer the following business questions;
-i.	Which product categories generate the most revenue?
-ii.	Which customer groups contribute the most to sales?
-
-4.DATA UNDERSTANDING
-Dataset description: 
+2. Data Understanding
+ Dataset description: 
 •	Number of records: 1,000
 •	Number of columns: 10
 •	Key fields: Customer ID, Age, Product category, Total Amount 
 •	Limitations: The sample size was small, there were missing month
+Retail Sales Dataset
+Fields; Transaction ID, Date,Customer ID, Gender, Age, Product Category, Quantity, Price Per Unit, Total Amount.
 
-5.METHODOLOGY
-Data Cleaning: Removing duplicates, checking for missing values, filters and standardizing dates.
-Feature engineering: Inserted a new column – Age group to include an age range
-Exploratory analysis: Pivot tables to summarize sales by product category, sales by gender and sales by age group, Charts to spot trends 
-Analysis technique: Formula segmentation
-Visualization: A dashboard with bar chart, a donut chart and KPI Cards
+3. Methodology
+i. Data Cleaning (Excel)
+ •Removed duplicates, checking for missing values, filters and inconsistences.  
+ •Standardized dates, product and region names.
+ii. Feature Engineering (Excel)
+    Created a new column – Age group to include an age range. Age Group = =IF(AND(F2>=18,F2<=29),"Youth",IF(AND(F2>=30,F2<=49),"Young     Adult",IF(AND(F2>=50,F2<=64),"Adult",""))).
+iii. Data Analysis (Excel)
+Exploratory analysis: Pivot tables to summarize sales by product category, sales by gender and sales by age group, Charts to spot trends:
+ •Sales ↔ Gender
+ •Sales ↔ Age Group
+Sales ↔ Category :
+ •Total Sales
+ •Average Age
+ •Monthly Sales
+ •Customer Count
+ •Total Quantity sold
+iv.Visualization (Excel)
+ •Dashboard 1: Sales Overview
+ •Dashboard 2: Sales by Male Gender
+ •Dashboard 3: Clothing Category and Male Gender Insights
+ •Dashboard 4: Clothing Category, Male Gender and Young adult group Insights
 
-6.RECOMMENDATION
-i.	Expand Electronics to include smart phones, tablets, smart watches, game consoles, etc. to sustain revenue growth.
-ii.	Target female dominated demographics with tailored marketing campaigns to generate more revenue from the female customers since they contribute a high margin of sales.
-iii.	Improve customer diversity by broadening your offerings to appeal to different customers, age groups and lifestyles.
+4.The Dashboards
 
 
-<img width="1441" height="697" alt="image" src="https://github.com/user-attachments/assets/a4f590bf-6c76-40d2-a32e-c1a9f3b74e11" />
+
+
+
+
+
+
+
+Sales Overview
+ i.Total Sales: 456K
+ ii.Sales by Categories: Beauty (143.52k) > Clothing (155.58K) > Electronics (156.91K)
+ iii.Gender Contribution: Male (49%), Female (51%)
+ iv. Monthly Trends: Peak in May (53.15K), dip in September (23.62K)
+
+
+
+
+
+
+Sales By Gender
+Top Revenue: (23.8K, 1298 units)
+Revenue by Category: Beauty (74.83k) > Clothing (81.28K) > Electronics (76.74K)
+Average Female Customer Age: 41
+Monthly Quantity Trend: Peak in October (26.6k)
+
+
+
+
+Clothing Category and Male Gender Insights
+Clothing Category, Male Gender and Young adult group Insights
+
+
+
+
+5. Key Insights
+Electronics dominate sales, (34.41%).
+Young Adult Customer group bring the most revenue, churning 189.69K.
+Sales are seasonal, peaking in May across both revenue and quantity.
+
+6. Recommendations
+ i.	Expand Electronics to include smart phones, tablets, smart watches, game consoles, etc. to sustain revenue growth.
+ii.	Target female dominated demographics with tailored marketing campaigns to generate more revenue from the female customers since they         contribute a high margin of sales.
+iii. Improve customer diversity by broadening your offerings to appeal to different customers, age groups and lifestyles.
+
+7. Conclusion
+This project shows how structured analysis of Sales, Product, and Customer data using **Excel can generate clear business insights.
+
+It demonstrates end-to-end analytics workflow:
+
+8. Tool; Excel & Tech Flow
+**Data Cleaning
+**Feature Engineering
+**Pivot tables
+**Visualization
+
 
 
 
