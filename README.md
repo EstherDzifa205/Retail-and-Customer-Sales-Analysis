@@ -1,5 +1,5 @@
 
-Retail-Sales-Customer-Analysis
+# Retail-Sales-Customer-Analysis
 This is a project to analyse the relationship between customer demographics and the products they purchase at a retail store. KPI's were achieved through data cleaning, feature engineering and visualization
 
 1. Project Overview
@@ -45,6 +45,7 @@ iv.Visualization (Excel)
 
 
 
+![WhatsApp Image 2025-10-28 at 22 47 18 (3)](https://github.com/user-attachments/assets/05355c8c-b563-4b7f-921c-2f5b5d27fc6c)
 
 
 
@@ -55,6 +56,17 @@ Sales Overview
  ii.Sales by Categories: Beauty (143.52k) > Clothing (155.58K) > Electronics (156.91K)
  iii.Gender Contribution: Male (49%), Female (51%)
  iv. Monthly Trends: Peak in May (53.15K), dip in September (23.62K)
+
+
+
+
+
+
+
+![WhatsApp Image 2025-10-28 at 22 47 18 (4)](https://github.com/user-attachments/assets/5c3200d5-81ac-44de-882d-9dd7d6fc62db)
+
+
+
 
 
 
@@ -74,7 +86,18 @@ Clothing Category and Male Gender Insights
 Clothing Category, Male Gender and Young adult group Insights
 
 
+
+
+
+
 ![WhatsApp Image 2025-10-28 at 22 47 18 (2)](https://github.com/user-attachments/assets/0d4077e7-ea58-40ff-94a9-c8343c8c4e5b)
+
+
+
+
+
+
+
 
 
 5. Key Insights
