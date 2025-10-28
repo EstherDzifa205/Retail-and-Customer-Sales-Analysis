@@ -1,6 +1,6 @@
 
 Retail-Sales-Customer-Analysis
-This is a project to analyse the relationship between customer demographics and the items they purchase at a retail store. KPI's were achieved through data cleaning, feature engineering and visualization
+This is a project to analyse the relationship between customer demographics and the products they purchase at a retail store. KPI's were achieved through data cleaning, feature engineering and visualization
 
 1. Project Overview
 Retail Dataset (Transaction ID, Customer ID, Item Quantity, Age, Unit, Total Amount) The objective is to create an interactive Dashboard in Excel that answers;
@@ -74,6 +74,7 @@ Clothing Category and Male Gender Insights
 Clothing Category, Male Gender and Young adult group Insights
 
 
+![WhatsApp Image 2025-10-28 at 22 47 18 (2)](https://github.com/user-attachments/assets/0d4077e7-ea58-40ff-94a9-c8343c8c4e5b)
 
 
 5. Key Insights
