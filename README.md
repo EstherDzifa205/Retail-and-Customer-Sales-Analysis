@@ -10,20 +10,18 @@ This is a project to analyse the relationship between customer demographics and 
 4. The average age of a customer
 
 # 2. Data Understanding
- Dataset description: 
-' -	Number of records: 1,000
-' -	Number of columns: 10
-' -	Key fields: Customer ID, Age, Product category, Total Amount 
-' -	Limitations: The sample size was small, there were missing month
-Retail Sales Dataset
-Fields; Transaction ID, Date,Customer ID, Gender, Age, Product Category, Quantity, Price Per Unit, Total Amount.
+ * *Dataset description: 
+ Number of records: 1,000
+ Number of columns: 10
+ * *Key fields: Transaction ID,  Date, Gender, Age, Product category,Quantity, Price per unit, Total Amount 
+ * *Limitations: The sample size was small, there were missing month
 
 # 3. Methodology
 # i.Data Cleaning (Excel)
  * Removed duplicates, checking for missing values, filters and inconsistences.  
 *  Standardized dates, product and region names.
 # ii. Feature Engineering (Excel)
- * Created a new column: Age group to include an age range. Age Group = =_IF(AND(F2>=18,F2<=29),"Youth",IF(AND(F2>=30,F2<=49),"Young     Adult",IF(AND(F2>=50,F2<=64),"Adult","")))._ 
+ * Created a new column: Age group to include an age range. Age Group = =* *IF(AND(F2>=18,F2<=29),"Youth",IF(AND(F2>=30,F2<=49),"Young     Adult",IF(AND(F2>=50,F2<=64),"Adult",""))).* 
 # iii. Data Analysis (Excel)
 Exploratory analysis: Pivot tables to summarize sales by product category, sales by gender and sales by age group, Charts to spot trends:
  *  Sales ↔ Gender
@@ -35,10 +33,10 @@ Sales ↔ Category :
 * Customer Count
 * Total Quantity sold
 # iv.Visualization (Excel)
- ' - Dashboard 1: Sales Overview
- ' - Dashboard 2: Sales by Male Gender
- ' - Dashboard 3: Clothing Category and Male Gender Insights
- ' - Dashboard 4: Clothing Category, Male Gender and Young adult group Insights
+  Dashboard 1: Sales Overview
+  Dashboard 2: Sales by Male Gender
+  Dashboard 3: Clothing Category and Male Gender Insights
+  Dashboard 4: Clothing Category, Male Gender and Young adult group Insights
 
 # 4.The Dashboards
 
