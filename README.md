@@ -124,9 +124,9 @@ Monthly Quantity Trend: Peak in October (26.6k)
 Sales are * *seasonal*, peaking in May across both revenue and quantity.
 
 # 6. Recommendations
-1.  * *	Expand Electronics to include smart phones, tablets, smart watches, game consoles, etc.* to sustain revenue growth.
-2. * *	Target female dominated demographics* with tailored marketing campaigns to generate more revenue from the female customers since          they contribute a high margin of sales.
-3. * * Improve customer diversity* by broadening your offerings to appeal to different customers, age groups and lifestyles.
+1. Expand Electronics to include smart phones, tablets, smart watches, game consoles, etc.* to sustain revenue growth.
+2. Target female dominated demographics* with tailored marketing campaigns to generate more revenue from the female customers since          they contribute a high margin of sales.
+3. Improve customer diversity* by broadening your offerings to appeal to different customers, age groups and lifestyles.
 
 # 7. Conclusion
 This project shows how structured analysis of * *Sales, Product, and Customer data* using
