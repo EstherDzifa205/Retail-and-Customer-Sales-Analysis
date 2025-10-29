@@ -2,45 +2,48 @@
 # Retail-Sales-Customer-Analysis
 This is a project to analyse the relationship between customer demographics and the products they purchase at a retail store. KPI's were achieved through data cleaning, feature engineering and visualization
 
-1. Project Overview
-Retail Dataset (Transaction ID, Customer ID, Item Quantity, Age, Unit, Total Amount) The objective is to create an interactive Dashboard in Excel that answers;
-i. Which product Category generate the most revenue?
-ii. What age group gives the most revenue
-iii. Which month did sales peak
-iv. The average age of a customer
+# 1. Project Overview
+* *Retail Dataset* (Transaction ID, Customer ID, Item Quantity, Age, Unit, Total Amount) The objective is to create an * *interactive Dashboard in Excel* that answers;
+1. Which product Category generate the most revenue?
+2. What age group gives the most revenue
+3. Which month did sales peak
+4. The average age of a customer
 
-2. Data Understanding
+# 2. Data Understanding
  Dataset description: 
-•	Number of records: 1,000
-•	Number of columns: 10
-•	Key fields: Customer ID, Age, Product category, Total Amount 
-•	Limitations: The sample size was small, there were missing month
+' -	Number of records: 1,000
+' -	Number of columns: 10
+' -	Key fields: Customer ID, Age, Product category, Total Amount 
+' -	Limitations: The sample size was small, there were missing month
 Retail Sales Dataset
 Fields; Transaction ID, Date,Customer ID, Gender, Age, Product Category, Quantity, Price Per Unit, Total Amount.
 
-3. Methodology
+# 3. Methodology
 i. Data Cleaning (Excel)
- •Removed duplicates, checking for missing values, filters and inconsistences.  
- •Standardized dates, product and region names.
+ ' - Removed duplicates, checking for missing values, filters and inconsistences.  
+ ' - Standardized dates, product and region names.
 ii. Feature Engineering (Excel)
     Created a new column – Age group to include an age range. Age Group = =IF(AND(F2>=18,F2<=29),"Youth",IF(AND(F2>=30,F2<=49),"Young     Adult",IF(AND(F2>=50,F2<=64),"Adult",""))).
 iii. Data Analysis (Excel)
 Exploratory analysis: Pivot tables to summarize sales by product category, sales by gender and sales by age group, Charts to spot trends:
- •Sales ↔ Gender
- •Sales ↔ Age Group
+ ' - Sales ↔ Gender
+ ' - Sales ↔ Age Group
 Sales ↔ Category :
- •Total Sales
- •Average Age
- •Monthly Sales
- •Customer Count
- •Total Quantity sold
+ ' - Total Sales
+ ' - Average Age
+ ' - Monthly Sales
+ ' - Customer Count
+ ' - Total Quantity sold
 iv.Visualization (Excel)
- •Dashboard 1: Sales Overview
- •Dashboard 2: Sales by Male Gender
- •Dashboard 3: Clothing Category and Male Gender Insights
- •Dashboard 4: Clothing Category, Male Gender and Young adult group Insights
+ ' - Dashboard 1: Sales Overview
+ ' - Dashboard 2: Sales by Male Gender
+ ' - Dashboard 3: Clothing Category and Male Gender Insights
+ ' - Dashboard 4: Clothing Category, Male Gender and Young adult group Insights
 
-4.The Dashboards
+# 4.The Dashboards
+
+
+
 
 
 
@@ -51,11 +54,17 @@ iv.Visualization (Excel)
 
 
 
-Sales Overview
- i.Total Sales: 456K
- ii.Sales by Categories: Beauty (143.52k) > Clothing (155.58K) > Electronics (156.91K)
- iii.Gender Contribution: Male (49%), Female (51%)
- iv. Monthly Trends: Peak in May (53.15K), dip in September (23.62K)
+
+
+
+
+
+
+# #Sales Overview
+ ' -  Total Sales: 456K
+ ' -  Sales by Categories: Beauty (143.52k) > Clothing (155.58K) > Electronics (156.91K)
+ ' -  Gender Contribution: Male (49%), Female (51%)
+ ' -  Monthly Trends: Peak in May (53.15K), dip in September (23.62K)
 
 
 
@@ -73,7 +82,10 @@ Sales Overview
 
 
 
-Sales By Gender
+
+
+
+# #Sales By Gender
 Top Revenue: (23.8K, 1298 units)
 Revenue by Category: Beauty (74.83k) > Clothing (81.28K) > Electronics (76.74K)
 Average Female Customer Age: 41
@@ -82,8 +94,11 @@ Monthly Quantity Trend: Peak in October (26.6k)
 
 
 
-Clothing Category and Male Gender Insights
-Clothing Category, Male Gender and Young adult group Insights
+# Clothing Category and Male Gender Insights
+# #Clothing Category, Male Gender and Young adult group Insights
+
+
+
 
 
 
@@ -100,26 +115,29 @@ Clothing Category, Male Gender and Young adult group Insights
 
 
 
-5. Key Insights
-Electronics dominate sales, (34.41%).
-Young Adult Customer group bring the most revenue, churning 189.69K.
-Sales are seasonal, peaking in May across both revenue and quantity.
 
-6. Recommendations
- i.	Expand Electronics to include smart phones, tablets, smart watches, game consoles, etc. to sustain revenue growth.
-ii.	Target female dominated demographics with tailored marketing campaigns to generate more revenue from the female customers since they         contribute a high margin of sales.
-iii. Improve customer diversity by broadening your offerings to appeal to different customers, age groups and lifestyles.
 
-7. Conclusion
-This project shows how structured analysis of Sales, Product, and Customer data using **Excel can generate clear business insights.
 
-It demonstrates end-to-end analytics workflow:
+# 5. Key Insights
+- ,* *Electronics dominate* sales, (34.41%).
+- ,* *Young Adult Customer group* bring the most revenue, churning 189.69K.
+Sales are * *seasonal*, peaking in May across both revenue and quantity.
 
-8. Tool; Excel & Tech Flow
-**Data Cleaning
-**Feature Engineering
-**Pivot tables
-**Visualization
+# 6. Recommendations
+1.  * *	Expand Electronics to include smart phones, tablets, smart watches, game consoles, etc.* to sustain revenue growth.
+2. * *	Target female dominated demographics* with tailored marketing campaigns to generate more revenue from the female customers since          they contribute a high margin of sales.
+3. * * Improve customer diversity* by broadening your offerings to appeal to different customers, age groups and lifestyles.
+
+# 7. Conclusion
+This project shows how structured analysis of * *Sales, Product, and Customer data* using
+* *Excel* can generate clear business insights.
+It demonstrates * *end-to-end analytics workflow.*
+
+# 8. Tool; Excel & Tech Flow
+* *Data Cleaning*
+* *Feature Engineering*
+* *Pivot tables*
+* *Visualization*
 
 
 
