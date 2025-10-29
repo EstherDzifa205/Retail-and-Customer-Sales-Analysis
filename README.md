@@ -23,7 +23,7 @@ Fields; Transaction ID, Date,Customer ID, Gender, Age, Product Category, Quantit
  * Removed duplicates, checking for missing values, filters and inconsistences.  
 *  Standardized dates, product and region names.
 # ii. Feature Engineering (Excel)
- * Created a new column: Age group to include an age range. Age Group = =IF(AND(F2>=18,F2<=29),"Youth",IF(AND(F2>=30,F2<=49),"Young     Adult",IF(AND(F2>=50,F2<=64),"Adult",""))).
+ * Created a new column: Age group to include an age range. Age Group = =_IF(AND(F2>=18,F2<=29),"Youth",IF(AND(F2>=30,F2<=49),"Young     Adult",IF(AND(F2>=50,F2<=64),"Adult","")))._ 
 # iii. Data Analysis (Excel)
 Exploratory analysis: Pivot tables to summarize sales by product category, sales by gender and sales by age group, Charts to spot trends:
  *  Sales ↔ Gender
@@ -119,19 +119,19 @@ Sales ↔ Category :
 
 
 # 5. Key Insights
-* Electronics dominate* sales, (34.41%).
-* Young Adult Customer group* bring the most revenue, churning 189.69K.
-* Sales are * *seasonal*, peaking in May across both revenue and quantity.
+* Electronics dominate sales, (34.41%).
+* Young Adult Customer group bring the most revenue, churning 189.69K.
+* Sales are seasonal, peaking in May across both revenue and quantity.
 
 # 6. Recommendations
-*  Expand Electronics to include smart phones, tablets, smart watches, game consoles, etc.* to sustain revenue growth.
-*  Target female dominated demographics* with tailored marketing campaigns to generate more revenue from the female customers since          they contribute a high margin of sales.
-*  Improve customer diversity* by broadening your offerings to appeal to different customers, age groups and lifestyles.
+*  Expand Electronics to include smart phones, tablets, smart watches, game consoles, etc. to sustain revenue growth.
+*  Target female dominated demographics with tailored marketing campaigns to generate more revenue from the female customers since          they contribute a high margin of sales.
+*  Improve customer diversity by broadening your offerings to appeal to different customers, age groups and lifestyles.
 
 # 7. Conclusion
-This project shows how structured analysis of * *Sales, Product, and Customer data* using
-* *Excel* can generate clear business insights.
-It demonstrates * *end-to-end analytics workflow.*
+This project shows how structured analysis of Sales, Product, and Customer data using
+Excel can generate clear business insights.
+It demonstrates end-to-end analytics workflow.
 
 # 8. Tool; Excel & Tech Flow
 * *Data Cleaning*
